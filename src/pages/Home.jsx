@@ -21,15 +21,15 @@ export default function Home() {
       <div className="flex items-center justify-between pt-30 pl-80 pr-80">
         {/* รายละเอียดด้านซ้าย */}
         <div className="flex flex-col gap-2">
-          <span className="text-white">Full Stack Web Developer</span>
-          <span className="text-white">Developer</span>
-          <span className="text-white">
-            Hi, I’m NinniN SAU. A passionate Full Stack
+          <span className="text-white text-5xl font-['Lora',serif]">Full Stack Web </span>
+          <span className="text-white text-5xl font-['Lora',serif]">Developer!</span>
+          <span className="text-white text-2xl">
+            Hi, I'm Naphat SAU. A passionate Full Stack
           </span>
-          <span className="text-white">Web Developer based in Thailand.</span>
+          <span className="text-white text-2xl">Web Developer based in Thailand.</span>
           <div className="flex gap-3 pt-3">
-            <FaLinkedinIn className="text-white" />
-            <FaGithub className="text-white" />
+            <FaLinkedinIn className="text-white text-4xl" />
+            <FaGithub className="text-white text-4xl" />
           </div>
         </div>
         {/* รูปด้านขวา */}
